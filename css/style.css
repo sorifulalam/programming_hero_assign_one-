@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border: 0;
+}
+/* primary color */
+.primary-color {
+  color: #f15b22;
+}
+/* button */
+.banner-btn {
+  height: 60px;
+  color: #ffffff;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 35px;
+  margin-top: 30px;
+  float: right;
+}
+/* header banner imag  */
+.header-banner {
+  background-image: url("../img/banner1.png");
+  width: 1600px;
+  height: 808px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner-control {
+  padding: 170px;
+}
+/* banner pharagrap titel */
+.banner-titel {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: Right;
+  color: #151414;
+}
+/* banner pharagrap description */
+.banner-description {
+  text-align: right;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+/* max width this main component */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* failures- Section */
+
+.failures-section-container {
+  display: flex;
+}
+/* failures img */
+.failures-img {
+  background-image: url("../img/person.png");
+  width: 569px;
+  height: 723.3px;
+  margin-top: 130px;
+}
+.failures-section-content {
+  width: 500px;
+  margin-left: 85px;
+}
+.failures-section-titel {
+  font-size: 40px;
+  margin-top: 370px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failures-section-decricption {
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+/* skilll description */
+.taitel-contant {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.92px;
+}
+.skill-container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  gap: 24px;
+}
+.skill {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skills-titel {
+  color: #181818;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.skills-description {
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* plan-section */
+.plan-content {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.paln-titel {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.92px;
+  color: #151414;
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.plan-skill {
+  color: #151414;
+  size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.skill-description {
+  font-size: 25px;
+  color: #737272;
+  margin-bottom: 135px;
+}
+
+/* banner image greadents */
+.banner-section {
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("../img/watch.png");
+  width: 1140px;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.banner-section-titel {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 45px 50px 10px 100px;
+  margin-bottom: 24px;
+}
+.banner-section-btn {
+  height: 60px;
+  color: #c951b9;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 35px;
+  margin-left: 100px;
+}
+/* footer design css */
+
+.footer-container {
+  background-color: #151414;
+  width: 1600px;
+  height: auto;
+  margin: 0 auto;
+}
+.footer-section {
+  display: flex;
+}
+.footer-contant {
+  margin-left: 230px;
+  margin-top: 130px;
+}
+.footer-titel {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer-description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.social-img {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.footer-subcription {
+  margin-left: 230px;
+  margin-top: 130px;
+}
+.titel-subcription {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+input {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.footer-btn {
+  height: 40px;
+  color: #c951b9;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 30px;
+}
